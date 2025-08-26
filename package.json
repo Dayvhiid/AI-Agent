@@ -1,27 +1,32 @@
 {
-  "name": "agents",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/express": "^5.0.3",
-    "@types/node": "^24.3.0",
-    "typescript": "^5.9.2"
-  },
-  "dependencies": {
-    "@langchain/anthropic": "^0.3.26",
-    "@langchain/langgraph": "^0.4.6",
-    "@langchain/mongodb": "^0.1.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "langchain": "^0.3.31",
-    "mongodb": "^6.18.0",
-    "zod": "^3.25.76"
-  }
+    "name": "agents",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/node": "^24.3.0",
+        "typescript": "^5.9.2"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "@huggingface/inference": "^4.7.1",
+        "@langchain/anthropic": "^0.3.26",
+        "@langchain/google-genai": "^0.2.16",
+        "@langchain/langgraph": "^0.4.6",
+        "@langchain/mongodb": "^0.1.0",
+        "axios": "^1.11.0",
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "langchain": "^0.3.31",
+        "mongodb": "^6.18.0",
+        "zod": "^3.25.76"
+    }
 }
